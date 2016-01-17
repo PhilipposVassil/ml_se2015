@@ -16,6 +16,7 @@ import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JDialog;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.JTextPane;
@@ -171,9 +172,6 @@ public class MyDialog5 extends JDialog {
 		label.setBounds(314, 0, 126, 118);
 		contentPanel.add(label);
 		
-		
-		
-		
 		{
 			JPanel buttonPane = new JPanel();
 			buttonPane.setLayout(new FlowLayout(FlowLayout.RIGHT));
@@ -191,7 +189,8 @@ public class MyDialog5 extends JDialog {
 					
 					String query = "Insert into report values('"+text1+"','"+text4+"')";
 					MySQL.executeUpdate(query, conn);
-					//i.setVisible(false);	
+					//i.setVisible(false);
+					JOptionPane.showMessageDialog(contentPanel,"Αποθηκεύτικε επιτυχώς!","Info",JOptionPane.INFORMATION_MESSAGE);
 					
 				}
 			});
