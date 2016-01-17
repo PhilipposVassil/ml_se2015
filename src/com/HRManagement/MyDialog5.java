@@ -188,9 +188,13 @@ public class MyDialog5 extends JDialog {
 					String text1 = textField.getText();
 					
 					String query = "Insert into report values('"+text1+"','"+text4+"')";
-					MySQL.executeUpdate(query, conn);
+					boolean saved = MySQL.executeUpdate(query, conn);
 					//i.setVisible(false);
-					JOptionPane.showMessageDialog(contentPanel,"Αποθηκεύτικε επιτυχώς!","Info",JOptionPane.INFORMATION_MESSAGE);
+					if (saved){
+						JOptionPane.showMessageDialog(contentPanel,"Αποθηκεύτικε επιτυχώς!","Info",JOptionPane.INFORMATION_MESSAGE);
+					}else{
+						JOptionPane.showMessageDialog(contentPanel,"Αποτυχία Αποθήκευσης!","Error",JOptionPane.ERROR_MESSAGE);
+					}
 					
 				}
 			});

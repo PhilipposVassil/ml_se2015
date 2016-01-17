@@ -255,10 +255,14 @@ public class MyDialog4 extends JDialog {
 					String text5 = textField4.getText();
 					
 					String query = "Insert into employees values('"+text1+"','"+text4+"','"+text3+"','"+text5+"','"+text2+"')";
-					MySQL.executeUpdate(query, conn);
+					boolean saved = MySQL.executeUpdate(query, conn);
 					//i.setVisible(false);
 					
-					JOptionPane.showMessageDialog(contentPanel,"Αποθηκεύτικε επιτυχώς!","Info",JOptionPane.INFORMATION_MESSAGE);
+					if (saved){
+						JOptionPane.showMessageDialog(contentPanel,"Αποθηκεύτικε επιτυχώς!","Info",JOptionPane.INFORMATION_MESSAGE);
+					}else{
+						JOptionPane.showMessageDialog(contentPanel,"Αποτυχία Αποθήκευσης!","Error",JOptionPane.ERROR_MESSAGE);
+					}
 					
 					try {
 						String query8 = "Select name from employees;";
