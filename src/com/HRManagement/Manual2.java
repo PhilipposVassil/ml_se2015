@@ -16,6 +16,7 @@ import javax.swing.SwingConstants;
 import javax.swing.JTextPane;
 import java.awt.SystemColor;
 
+@SuppressWarnings("serial")
 public class Manual2 extends JDialog {
 
 	private final JPanel contentPanel = new JPanel();

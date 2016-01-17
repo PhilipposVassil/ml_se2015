@@ -16,6 +16,7 @@ import javax.swing.JTextPane;
 import javax.swing.SwingConstants;
 import javax.swing.border.EmptyBorder;
 
+@SuppressWarnings("serial")
 public class Manual extends JDialog {
 
 	private final JPanel contentPanel = new JPanel();

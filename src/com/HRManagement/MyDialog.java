@@ -17,6 +17,7 @@ import java.awt.Font;
 import javax.swing.SwingConstants;
 import javax.swing.ImageIcon;
 
+@SuppressWarnings("serial")
 public class MyDialog extends JDialog {
 
 	private final JPanel contentPanel = new JPanel();
