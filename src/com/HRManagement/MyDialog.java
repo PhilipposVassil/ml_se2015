@@ -11,6 +11,7 @@ import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JTextField;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 
 import java.sql.*;
 import java.awt.Font;
@@ -89,15 +90,28 @@ public class MyDialog extends JDialog {
 
 					@Override
 					public void actionPerformed(ActionEvent e) {
+						
+						if(textField.getText().equals("") ||textField2.getText().equals("")){
+
+							JOptionPane.showMessageDialog(null, "Δεν καταχωρήθηκαν δεδομένα");
+							//btnSave.setEnabled(false);
+						}else{
+						
 						// TODO Auto-generated method stub
 						String text = textField.getText();
 						String text1 = textField2.getText();
 						
 						String query = "Insert into divisions values('"+text+"','"+text1+"')";
-						MySQL.executeUpdate(query, conn);
-						i.setVisible(false);
+						boolean saved = MySQL.executeUpdate(query, conn);
+						//i.setVisible(false);
+						
+						if (saved){
+							JOptionPane.showMessageDialog(contentPanel,"Αποθηκεύτικε επιτυχώς!","Info",JOptionPane.INFORMATION_MESSAGE);
+						}else{
+							JOptionPane.showMessageDialog(contentPanel,"Αποτυχία Αποθήκευσης!","Error",JOptionPane.ERROR_MESSAGE);
+						}
+						}
 					}
-					
 				});
 				buttonPane.add(okButton);
 				getRootPane().setDefaultButton(okButton);

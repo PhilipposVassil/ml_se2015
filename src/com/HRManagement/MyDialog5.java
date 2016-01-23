@@ -180,20 +180,25 @@ public class MyDialog5 extends JDialog {
 			JButton btnSave = new JButton("\u0391\u03C0\u03BF\u03B8\u03AE\u03BA\u03B5\u03C5\u03C3\u03B7");
 			btnSave.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
-
-					String query80 = "Delete from report where name='"+onoma+"' ";
-					MySQL.executeUpdate(query80, conn);
-									
-					String text4 = textPane.getText();
-					String text1 = textField.getText();
 					
-					String query = "Insert into report values('"+text1+"','"+text4+"')";
-					boolean saved = MySQL.executeUpdate(query, conn);
-					//i.setVisible(false);
-					if (saved){
-						JOptionPane.showMessageDialog(contentPanel,"Αποθηκεύτικε επιτυχώς!","Info",JOptionPane.INFORMATION_MESSAGE);
+					if(textField.getText().equals("")){
+						JOptionPane.showMessageDialog(null, "Δεν καταχωρήθηκαν δεδομένα");
+						//btnSave.setEnabled(false);
 					}else{
-						JOptionPane.showMessageDialog(contentPanel,"Αποτυχία Αποθήκευσης!","Error",JOptionPane.ERROR_MESSAGE);
+						String query80 = "Delete from report where name='"+onoma+"' ";
+						MySQL.executeUpdate(query80, conn);
+										
+						String text4 = textPane.getText();
+						String text1 = textField.getText();
+						
+						String query = "Insert into report values('"+text1+"','"+text4+"')";
+						boolean saved = MySQL.executeUpdate(query, conn);
+						//i.setVisible(false);
+						if (saved){
+							JOptionPane.showMessageDialog(contentPanel,"Αποθηκεύτικε επιτυχώς!","Info",JOptionPane.INFORMATION_MESSAGE);
+						}else{
+							JOptionPane.showMessageDialog(contentPanel,"Αποτυχία Αποθήκευσης!","Error",JOptionPane.ERROR_MESSAGE);
+						}
 					}
 					
 				}

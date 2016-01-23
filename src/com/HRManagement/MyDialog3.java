@@ -15,6 +15,7 @@ import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JDialog;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
@@ -139,6 +140,13 @@ public class MyDialog3 extends JDialog {
 
 					@Override
 					public void actionPerformed(ActionEvent e) {
+						
+						if(textField.getText().equals("")|| cboDemo.getSelectedIndex() == -1 ||textField2.getText().equals("") || textField4.getText().equals("") || textField5.getText().equals("") ){
+
+							JOptionPane.showMessageDialog(null, "Δεν καταχωρήθηκαν δεδομένα");
+							//btnSave.setEnabled(false);
+						}else{
+						
 						// TODO Auto-generated method stub
 						String text1 = textField.getText();
 						String text2 = textField2.getText();
@@ -147,9 +155,15 @@ public class MyDialog3 extends JDialog {
 						String text5 = textField5.getText();
 						
 						String query = "Insert into employees values('"+text1+"','"+text2+"','"+text3+"','"+text4+"','"+text5+"')";
-						MySQL.executeUpdate(query, conn);
+						boolean saved = MySQL.executeUpdate(query, conn);
 						//i.setVisible(false);
-
+						
+						if (saved){
+							JOptionPane.showMessageDialog(contentPanel,"Αποθηκεύτικε επιτυχώς!","Info",JOptionPane.INFORMATION_MESSAGE);
+						}else{
+							JOptionPane.showMessageDialog(contentPanel,"Αποτυχία Αποθήκευσης!","Error",JOptionPane.ERROR_MESSAGE);
+						}
+						
 						try {
 							String query8 = "Select name from employees;";
 							ResultSet rs = MySQL.executeQuery(query8, conn);
@@ -165,7 +179,7 @@ public class MyDialog3 extends JDialog {
 						
 						
 						
-						
+						}	
 						
 					}
 					
