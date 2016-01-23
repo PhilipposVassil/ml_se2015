@@ -18,16 +18,16 @@ import javax.swing.SwingConstants;
 import javax.swing.border.EmptyBorder;
 
 @SuppressWarnings("serial")
-public class Help extends JDialog {
+public class HelpDialog extends JDialog {
 
 	private final JPanel contentPanel = new JPanel();
 	
-	Help i = this;
+	HelpDialog i = this;
 
 	/**
 	 * Create the dialog.
 	 */
-	public Help() {
+	public HelpDialog() {
 		setBounds(100, 100, 506, 410);
 		getContentPane().setLayout(new BorderLayout());
 		contentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
@@ -61,7 +61,7 @@ public class Help extends JDialog {
 			getContentPane().add(buttonPane, BorderLayout.SOUTH);
 			{
 				JButton cancelButton = new JButton("\u039A\u03BB\u03B5\u03AF\u03C3\u03B9\u03BC\u03BF");
-				cancelButton.setIcon(new ImageIcon(Help.class.getResource("/Pictures/error_button.png")));
+				cancelButton.setIcon(new ImageIcon(HelpDialog.class.getResource("/Pictures/error_button.png")));
 				cancelButton.addActionListener(new ActionListener() {
 					public void actionPerformed(ActionEvent e) {
 						setVisible(false);

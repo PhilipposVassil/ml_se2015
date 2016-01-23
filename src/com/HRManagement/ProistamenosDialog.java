@@ -91,7 +91,7 @@ public class ProistamenosDialog extends JDialog {
 		mnNewMenu2.add(mntmNewMenuItem4);
 		mntmNewMenuItem4.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				Help jd = new Help();
+				HelpDialog jd = new HelpDialog();
 				jd.setVisible(true);
 				
 			}

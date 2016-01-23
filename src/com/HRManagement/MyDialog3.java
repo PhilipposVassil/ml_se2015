@@ -38,6 +38,9 @@ public class MyDialog3 extends JDialog {
 	 * Create the dialog.
 	 */
 	public MyDialog3() {
+		
+		conn = MySQL.connectDB();
+		
 		setBounds(100, 100, 413, 292);
 		getContentPane().setLayout(new BorderLayout());
 		contentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
@@ -145,7 +148,7 @@ public class MyDialog3 extends JDialog {
 						
 						String query = "Insert into employees values('"+text1+"','"+text2+"','"+text3+"','"+text4+"','"+text5+"')";
 						MySQL.executeUpdate(query, conn);
-						i.setVisible(false);
+						//i.setVisible(false);
 
 						try {
 							String query8 = "Select name from employees;";

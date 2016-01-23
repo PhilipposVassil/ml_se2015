@@ -1,0 +1,710 @@
+Junit_test/com/HRManagement/TestUsers.java:1:	Package name contains upper case characters
+Junit_test/com/HRManagement/TestUsers.java:8:	Each class should declare at least one constructor
+Junit_test/com/HRManagement/TestUsers.java:8:	headerCommentRequirement Required
+Junit_test/com/HRManagement/TestUsers.java:10:	Avoid using redundant field initializer for 'user'
+Junit_test/com/HRManagement/TestUsers.java:10:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+Junit_test/com/HRManagement/TestUsers.java:10:	fieldCommentRequirement Required
+Junit_test/com/HRManagement/TestUsers.java:13:	publicMethodCommentRequirement Required
+Junit_test/com/HRManagement/TestUsers.java:18:	publicMethodCommentRequirement Required
+Junit_test/com/HRManagement/TestUsers.java:23:	publicMethodCommentRequirement Required
+Junit_test/com/HRManagement/TestUsers.java:28:	publicMethodCommentRequirement Required
+Junit_test/com/HRManagement/TestUsers.java:33:	publicMethodCommentRequirement Required
+src/com/HRManagement/AboutUs.java:1:	Package name contains upper case characters
+src/com/HRManagement/AboutUs.java:19:	headerCommentRequirement Required
+src/com/HRManagement/AboutUs.java:21:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/HRManagement/AboutUs.java:21:	fieldCommentRequirement Required
+src/com/HRManagement/AboutUs.java:26:	It is a good practice to call super() in a constructor
+src/com/HRManagement/AboutUs.java:33:	Local variable 'textPane' could be declared final
+src/com/HRManagement/AboutUs.java:41:	Local variable 'label' could be declared final
+src/com/HRManagement/AboutUs.java:47:	Local variable 'buttonPane' could be declared final
+src/com/HRManagement/AboutUs.java:51:	Local variable 'cancelButton' could be declared final
+src/com/HRManagement/AboutUs.java:54:	Avoid variables with short names like e
+src/com/HRManagement/AboutUs.java:54:	Parameter 'e' is not assigned and could be declared final
+src/com/HRManagement/AboutUs.java:54:	publicMethodCommentRequirement Required
+src/com/HRManagement/HRDialog.java:1:	Package name contains upper case characters
+src/com/HRManagement/HRDialog.java:28:	The class 'HRDialog' has a Cyclomatic Complexity of 17 (Highest = 16).
+src/com/HRManagement/HRDialog.java:28:	The class 'HRDialog' has a Modified Cyclomatic Complexity of 17 (Highest = 16).
+src/com/HRManagement/HRDialog.java:28:	The class 'HRDialog' has a Standard Cyclomatic Complexity of 17 (Highest = 16).
+src/com/HRManagement/HRDialog.java:28:	This class has too many methods, consider refactoring it.
+src/com/HRManagement/HRDialog.java:28:	headerCommentRequirement Required
+src/com/HRManagement/HRDialog.java:29:	Avoid variables with short names like cb
+src/com/HRManagement/HRDialog.java:29:	Possible unsafe assignment to a non-final static field in a constructor.
+src/com/HRManagement/HRDialog.java:29:	Use explicit scoping instead of the default package private level
+src/com/HRManagement/HRDialog.java:29:	fieldCommentRequirement Required
+src/com/HRManagement/HRDialog.java:31:	fieldCommentRequirement Required
+src/com/HRManagement/HRDialog.java:33:	Avoid variables with short names like i
+src/com/HRManagement/HRDialog.java:33:	Use explicit scoping instead of the default package private level
+src/com/HRManagement/HRDialog.java:33:	fieldCommentRequirement Required
+src/com/HRManagement/HRDialog.java:34:	fieldCommentRequirement Required
+src/com/HRManagement/HRDialog.java:35:	Private field 'textField' could be made final; it is only initialized in the declaration or constructor.
+src/com/HRManagement/HRDialog.java:35:	fieldCommentRequirement Required
+src/com/HRManagement/HRDialog.java:36:	Private field 'textField1' could be made final; it is only initialized in the declaration or constructor.
+src/com/HRManagement/HRDialog.java:36:	fieldCommentRequirement Required
+src/com/HRManagement/HRDialog.java:37:	Private field 'textField2' could be made final; it is only initialized in the declaration or constructor.
+src/com/HRManagement/HRDialog.java:37:	fieldCommentRequirement Required
+src/com/HRManagement/HRDialog.java:38:	Private field 'textField3' could be made final; it is only initialized in the declaration or constructor.
+src/com/HRManagement/HRDialog.java:38:	fieldCommentRequirement Required
+src/com/HRManagement/HRDialog.java:39:	Private field 'textField4' could be made final; it is only initialized in the declaration or constructor.
+src/com/HRManagement/HRDialog.java:39:	fieldCommentRequirement Required
+src/com/HRManagement/HRDialog.java:45:	Avoid unused constructor parameters such as 'permissions'.
+src/com/HRManagement/HRDialog.java:45:	It is a good practice to call super() in a constructor
+src/com/HRManagement/HRDialog.java:45:	Parameter 'permissions' is not assigned and could be declared final
+src/com/HRManagement/HRDialog.java:45:	The constructor 'HRDialog' has a Cyclomatic Complexity of 16.
+src/com/HRManagement/HRDialog.java:45:	The constructor 'HRDialog' has a Modified Cyclomatic Complexity of 16.
+src/com/HRManagement/HRDialog.java:45:	The constructor 'HRDialog' has a Standard Cyclomatic Complexity of 16.
+src/com/HRManagement/HRDialog.java:45:	The constructor with 1 parameters has an NCSS line count of 142
+src/com/HRManagement/HRDialog.java:62:	Local variable 'menu' could be declared final
+src/com/HRManagement/HRDialog.java:65:	Local variable 'mnNewMenu' could be declared final
+src/com/HRManagement/HRDialog.java:68:	Local variable 'mntmNewMenuItem' could be declared final
+src/com/HRManagement/HRDialog.java:73:	Parameter 'arg0' is not assigned and could be declared final
+src/com/HRManagement/HRDialog.java:73:	publicMethodCommentRequirement Required
+src/com/HRManagement/HRDialog.java:74:	Avoid variables with short names like jd
+src/com/HRManagement/HRDialog.java:74:	Local variable 'jd' could be declared final
+src/com/HRManagement/HRDialog.java:81:	Local variable 'mntmNewMenuItem1' could be declared final
+src/com/HRManagement/HRDialog.java:84:	Avoid variables with short names like e
+src/com/HRManagement/HRDialog.java:84:	Parameter 'e' is not assigned and could be declared final
+src/com/HRManagement/HRDialog.java:84:	publicMethodCommentRequirement Required
+src/com/HRManagement/HRDialog.java:85:	Avoid variables with short names like jd
+src/com/HRManagement/HRDialog.java:85:	Local variable 'jd' could be declared final
+src/com/HRManagement/HRDialog.java:92:	Local variable 'mnNewMenu1' could be declared final
+src/com/HRManagement/HRDialog.java:95:	Local variable 'mntmNewMenuItem2' could be declared final
+src/com/HRManagement/HRDialog.java:100:	Avoid variables with short names like e
+src/com/HRManagement/HRDialog.java:100:	Parameter 'e' is not assigned and could be declared final
+src/com/HRManagement/HRDialog.java:100:	publicMethodCommentRequirement Required
+src/com/HRManagement/HRDialog.java:101:	Avoid variables with short names like jd
+src/com/HRManagement/HRDialog.java:101:	Local variable 'jd' could be declared final
+src/com/HRManagement/HRDialog.java:108:	Local variable 'mntmNewMenuItem3' could be declared final
+src/com/HRManagement/HRDialog.java:111:	Avoid variables with short names like e
+src/com/HRManagement/HRDialog.java:111:	Parameter 'e' is not assigned and could be declared final
+src/com/HRManagement/HRDialog.java:111:	publicMethodCommentRequirement Required
+src/com/HRManagement/HRDialog.java:112:	Avoid variables with short names like jd
+src/com/HRManagement/HRDialog.java:112:	Local variable 'jd' could be declared final
+src/com/HRManagement/HRDialog.java:119:	Local variable 'menuItem1' could be declared final
+src/com/HRManagement/HRDialog.java:123:	Avoid variables with short names like e
+src/com/HRManagement/HRDialog.java:123:	Parameter 'e' is not assigned and could be declared final
+src/com/HRManagement/HRDialog.java:123:	publicMethodCommentRequirement Required
+src/com/HRManagement/HRDialog.java:124:	Local variable 'jda' could be declared final
+src/com/HRManagement/HRDialog.java:138:	Local variable 'mnNewMenu2' could be declared final
+src/com/HRManagement/HRDialog.java:141:	Local variable 'mntmNewMenuItem4' could be declared final
+src/com/HRManagement/HRDialog.java:145:	Avoid variables with short names like e
+src/com/HRManagement/HRDialog.java:145:	Parameter 'e' is not assigned and could be declared final
+src/com/HRManagement/HRDialog.java:145:	publicMethodCommentRequirement Required
+src/com/HRManagement/HRDialog.java:146:	Avoid variables with short names like jd
+src/com/HRManagement/HRDialog.java:146:	Local variable 'jd' could be declared final
+src/com/HRManagement/HRDialog.java:152:	Local variable 'mntmNewMenuItem5' could be declared final
+src/com/HRManagement/HRDialog.java:156:	Avoid variables with short names like e
+src/com/HRManagement/HRDialog.java:156:	Parameter 'e' is not assigned and could be declared final
+src/com/HRManagement/HRDialog.java:156:	publicMethodCommentRequirement Required
+src/com/HRManagement/HRDialog.java:157:	Avoid variables with short names like jd
+src/com/HRManagement/HRDialog.java:157:	Local variable 'jd' could be declared final
+src/com/HRManagement/HRDialog.java:163:	Local variable 'separator' could be declared final
+src/com/HRManagement/HRDialog.java:166:	Local variable 'menuItem' could be declared final
+src/com/HRManagement/HRDialog.java:170:	Avoid variables with short names like e
+src/com/HRManagement/HRDialog.java:170:	Parameter 'e' is not assigned and could be declared final
+src/com/HRManagement/HRDialog.java:170:	publicMethodCommentRequirement Required
+src/com/HRManagement/HRDialog.java:171:	Avoid variables with short names like jd
+src/com/HRManagement/HRDialog.java:171:	Local variable 'jd' could be declared final
+src/com/HRManagement/HRDialog.java:177:	Local variable 'menuBar' could be declared final
+src/com/HRManagement/HRDialog.java:192:	Local variable 'cboo' could be declared final
+src/com/HRManagement/HRDialog.java:209:	Local variable 'lblNewLabel' could be declared final
+src/com/HRManagement/HRDialog.java:215:	Local variable 'label' could be declared final
+src/com/HRManagement/HRDialog.java:219:	Local variable 'label1' could be declared final
+src/com/HRManagement/HRDialog.java:223:	Local variable 'label2' could be declared final
+src/com/HRManagement/HRDialog.java:227:	Local variable 'label3' could be declared final
+src/com/HRManagement/HRDialog.java:231:	Local variable 'label4' could be declared final
+src/com/HRManagement/HRDialog.java:272:	Local variable 'query' could be declared final
+src/com/HRManagement/HRDialog.java:273:	Avoid variables with short names like rs
+src/com/HRManagement/HRDialog.java:273:	Ensure that resources like this ResultSet object are closed after use
+src/com/HRManagement/HRDialog.java:273:	Local variable 'rs' could be declared final
+src/com/HRManagement/HRDialog.java:282:	Avoid printStackTrace(); use a logger call instead.
+src/com/HRManagement/HRDialog.java:293:	Local variable 'button' could be declared final
+src/com/HRManagement/HRDialog.java:295:	Parameter 'arg0' is not assigned and could be declared final
+src/com/HRManagement/HRDialog.java:295:	publicMethodCommentRequirement Required
+src/com/HRManagement/HRDialog.java:296:	Local variable 'text30' could be declared final
+src/com/HRManagement/HRDialog.java:303:	Local variable 'query1' could be declared final
+src/com/HRManagement/HRDialog.java:304:	Ensure that resources like this ResultSet object are closed after use
+src/com/HRManagement/HRDialog.java:304:	Local variable 'rs1' could be declared final
+src/com/HRManagement/HRDialog.java:305:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/HRDialog.java:307:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/HRDialog.java:308:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/HRDialog.java:309:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/HRDialog.java:310:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/HRDialog.java:311:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/HRDialog.java:318:	Avoid printStackTrace(); use a logger call instead.
+src/com/HRManagement/HRDialog.java:328:	Local variable 'buttonPane' could be declared final
+src/com/HRManagement/HRDialog.java:332:	Local variable 'btnSave' could be declared final
+src/com/HRManagement/HRDialog.java:334:	Avoid variables with short names like e
+src/com/HRManagement/HRDialog.java:334:	Parameter 'e' is not assigned and could be declared final
+src/com/HRManagement/HRDialog.java:334:	publicMethodCommentRequirement Required
+src/com/HRManagement/HRDialog.java:346:	Local variable 'cancelButton' could be declared final
+src/com/HRManagement/HRDialog.java:349:	Parameter 'arg0' is not assigned and could be declared final
+src/com/HRManagement/HRDialog.java:349:	publicMethodCommentRequirement Required
+src/com/HRManagement/HRDialog.java:350:	Avoid variables with short names like iq
+src/com/HRManagement/HRDialog.java:350:	Local variable 'iq' could be declared final
+src/com/HRManagement/HelpDialog.java:1:	Package name contains upper case characters
+src/com/HRManagement/HelpDialog.java:21:	headerCommentRequirement Required
+src/com/HRManagement/HelpDialog.java:23:	fieldCommentRequirement Required
+src/com/HRManagement/HelpDialog.java:25:	Avoid variables with short names like i
+src/com/HRManagement/HelpDialog.java:25:	Use explicit scoping instead of the default package private level
+src/com/HRManagement/HelpDialog.java:25:	fieldCommentRequirement Required
+src/com/HRManagement/HelpDialog.java:30:	It is a good practice to call super() in a constructor
+src/com/HRManagement/HelpDialog.java:37:	Local variable 'panel' could be declared final
+src/com/HRManagement/HelpDialog.java:43:	Local variable 'textPane' could be declared final
+src/com/HRManagement/HelpDialog.java:52:	Local variable 'label' could be declared final
+src/com/HRManagement/HelpDialog.java:59:	Local variable 'buttonPane' could be declared final
+src/com/HRManagement/HelpDialog.java:63:	Local variable 'cancelButton' could be declared final
+src/com/HRManagement/HelpDialog.java:66:	Avoid variables with short names like e
+src/com/HRManagement/HelpDialog.java:66:	Parameter 'e' is not assigned and could be declared final
+src/com/HRManagement/HelpDialog.java:66:	publicMethodCommentRequirement Required
+src/com/HRManagement/MainApp.java:1:	Package name contains upper case characters
+src/com/HRManagement/MainApp.java:3:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/com/HRManagement/MainApp.java:3:	headerCommentRequirement Required
+src/com/HRManagement/MainApp.java:8:	Parameter 'args' is not assigned and could be declared final
+src/com/HRManagement/MainFrame.java:1:	Package name contains upper case characters
+src/com/HRManagement/MainFrame.java:21:	headerCommentRequirement Required
+src/com/HRManagement/MainFrame.java:24:	Perhaps 'contentPane' could be replaced by a local variable.
+src/com/HRManagement/MainFrame.java:24:	Private field 'contentPane' could be made final; it is only initialized in the declaration or constructor.
+src/com/HRManagement/MainFrame.java:24:	fieldCommentRequirement Required
+src/com/HRManagement/MainFrame.java:25:	Private field 'textField' could be made final; it is only initialized in the declaration or constructor.
+src/com/HRManagement/MainFrame.java:25:	fieldCommentRequirement Required
+src/com/HRManagement/MainFrame.java:26:	Private field 'textField1' could be made final; it is only initialized in the declaration or constructor.
+src/com/HRManagement/MainFrame.java:26:	fieldCommentRequirement Required
+src/com/HRManagement/MainFrame.java:27:	Use explicit scoping instead of the default package private level
+src/com/HRManagement/MainFrame.java:27:	fieldCommentRequirement Required
+src/com/HRManagement/MainFrame.java:29:	Avoid variables with short names like i
+src/com/HRManagement/MainFrame.java:29:	Use explicit scoping instead of the default package private level
+src/com/HRManagement/MainFrame.java:29:	fieldCommentRequirement Required
+src/com/HRManagement/MainFrame.java:31:	It is a good practice to call super() in a constructor
+src/com/HRManagement/MainFrame.java:31:	publicMethodCommentRequirement Required
+src/com/HRManagement/MainFrame.java:40:	Local variable 'lblNewLabel' could be declared final
+src/com/HRManagement/MainFrame.java:62:	Local variable 'btnLogin' could be declared final
+src/com/HRManagement/MainFrame.java:75:	Parameter 'arg0' is not assigned and could be declared final
+src/com/HRManagement/MainFrame.java:75:	publicMethodCommentRequirement Required
+src/com/HRManagement/MainFrame.java:76:	Local variable 'username' could be declared final
+src/com/HRManagement/MainFrame.java:77:	Local variable 'password' could be declared final
+src/com/HRManagement/MainFrame.java:79:	Avoid variables with short names like us
+src/com/HRManagement/MainFrame.java:79:	Local variable 'us' could be declared final
+src/com/HRManagement/MainFrame.java:81:	Local variable 'checkuser' could be declared final
+src/com/HRManagement/MainFrame.java:82:	Local variable 'permission' could be declared final
+src/com/HRManagement/MainFrame.java:90:	Avoid using Literals in Conditional Statements
+src/com/HRManagement/MainFrame.java:90:	Use equals() to compare strings instead of '==' or '!='
+src/com/HRManagement/MainFrame.java:93:	Avoid using Literals in Conditional Statements
+src/com/HRManagement/MainFrame.java:93:	Use equals() to compare strings instead of '==' or '!='
+src/com/HRManagement/MainFrame.java:103:	Local variable 'label' could be declared final
+src/com/HRManagement/Manual.java:1:	Package name contains upper case characters
+src/com/HRManagement/Manual.java:20:	headerCommentRequirement Required
+src/com/HRManagement/Manual.java:22:	fieldCommentRequirement Required
+src/com/HRManagement/Manual.java:27:	It is a good practice to call super() in a constructor
+src/com/HRManagement/Manual.java:34:	Local variable 'lblManual' could be declared final
+src/com/HRManagement/Manual.java:41:	Local variable 'txtpnhr' could be declared final
+src/com/HRManagement/Manual.java:48:	Local variable 'buttonPane' could be declared final
+src/com/HRManagement/Manual.java:52:	Local variable 'cancelButton' could be declared final
+src/com/HRManagement/Manual.java:55:	Parameter 'arg0' is not assigned and could be declared final
+src/com/HRManagement/Manual.java:55:	publicMethodCommentRequirement Required
+src/com/HRManagement/Manual2.java:1:	Package name contains upper case characters
+src/com/HRManagement/Manual2.java:20:	headerCommentRequirement Required
+src/com/HRManagement/Manual2.java:22:	fieldCommentRequirement Required
+src/com/HRManagement/Manual2.java:28:	It is a good practice to call super() in a constructor
+src/com/HRManagement/Manual2.java:35:	Local variable 'lblManual' could be declared final
+src/com/HRManagement/Manual2.java:42:	Local variable 'txtpnhr' could be declared final
+src/com/HRManagement/Manual2.java:50:	Local variable 'buttonPane' could be declared final
+src/com/HRManagement/Manual2.java:54:	Local variable 'cancelButton' could be declared final
+src/com/HRManagement/Manual2.java:57:	Parameter 'arg0' is not assigned and could be declared final
+src/com/HRManagement/Manual2.java:57:	publicMethodCommentRequirement Required
+src/com/HRManagement/MyDialog.java:1:	Package name contains upper case characters
+src/com/HRManagement/MyDialog.java:21:	headerCommentRequirement Required
+src/com/HRManagement/MyDialog.java:23:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog.java:24:	Private field 'textField' could be made final; it is only initialized in the declaration or constructor.
+src/com/HRManagement/MyDialog.java:24:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog.java:26:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog.java:29:	Avoid variables with short names like i
+src/com/HRManagement/MyDialog.java:29:	Use explicit scoping instead of the default package private level
+src/com/HRManagement/MyDialog.java:29:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog.java:30:	Private field 'textField2' could be made final; it is only initialized in the declaration or constructor.
+src/com/HRManagement/MyDialog.java:30:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog.java:35:	It is a good practice to call super() in a constructor
+src/com/HRManagement/MyDialog.java:45:	Local variable 'panel' could be declared final
+src/com/HRManagement/MyDialog.java:51:	Local variable 'label' could be declared final
+src/com/HRManagement/MyDialog.java:56:	Local variable 'label' could be declared final
+src/com/HRManagement/MyDialog.java:74:	Local variable 'label' could be declared final
+src/com/HRManagement/MyDialog.java:81:	Local variable 'buttonPane' could be declared final
+src/com/HRManagement/MyDialog.java:85:	Local variable 'okButton' could be declared final
+src/com/HRManagement/MyDialog.java:91:	Avoid variables with short names like e
+src/com/HRManagement/MyDialog.java:91:	Parameter 'e' is not assigned and could be declared final
+src/com/HRManagement/MyDialog.java:91:	publicMethodCommentRequirement Required
+src/com/HRManagement/MyDialog.java:93:	Local variable 'text' could be declared final
+src/com/HRManagement/MyDialog.java:94:	Local variable 'text1' could be declared final
+src/com/HRManagement/MyDialog.java:96:	Local variable 'query' could be declared final
+src/com/HRManagement/MyDialog.java:106:	Local variable 'cancelButton' could be declared final
+src/com/HRManagement/MyDialog.java:109:	Parameter 'arg0' is not assigned and could be declared final
+src/com/HRManagement/MyDialog.java:109:	publicMethodCommentRequirement Required
+src/com/HRManagement/MyDialog1.java:1:	Package name contains upper case characters
+src/com/HRManagement/MyDialog1.java:23:	headerCommentRequirement Required
+src/com/HRManagement/MyDialog1.java:24:	Private field 'label1' could be made final; it is only initialized in the declaration or constructor.
+src/com/HRManagement/MyDialog1.java:24:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog1.java:25:	Private field 'label' could be made final; it is only initialized in the declaration or constructor.
+src/com/HRManagement/MyDialog1.java:25:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog1.java:26:	Private field 'comboBox' could be made final; it is only initialized in the declaration or constructor.
+src/com/HRManagement/MyDialog1.java:26:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog1.java:27:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog1.java:29:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog1.java:31:	Avoid variables with short names like i
+src/com/HRManagement/MyDialog1.java:31:	Use explicit scoping instead of the default package private level
+src/com/HRManagement/MyDialog1.java:31:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog1.java:36:	It is a good practice to call super() in a constructor
+src/com/HRManagement/MyDialog1.java:45:	Local variable 'panel' could be declared final
+src/com/HRManagement/MyDialog1.java:51:	Local variable 'label' could be declared final
+src/com/HRManagement/MyDialog1.java:74:	Local variable 'query' could be declared final
+src/com/HRManagement/MyDialog1.java:75:	Avoid variables with short names like rs
+src/com/HRManagement/MyDialog1.java:75:	Ensure that resources like this ResultSet object are closed after use
+src/com/HRManagement/MyDialog1.java:75:	Local variable 'rs' could be declared final
+src/com/HRManagement/MyDialog1.java:79:	Avoid printStackTrace(); use a logger call instead.
+src/com/HRManagement/MyDialog1.java:85:	Local variable 'label' could be declared final
+src/com/HRManagement/MyDialog1.java:92:	Local variable 'buttonPane' could be declared final
+src/com/HRManagement/MyDialog1.java:96:	Local variable 'okButton' could be declared final
+src/com/HRManagement/MyDialog1.java:102:	Avoid variables with short names like e
+src/com/HRManagement/MyDialog1.java:102:	Parameter 'e' is not assigned and could be declared final
+src/com/HRManagement/MyDialog1.java:102:	publicMethodCommentRequirement Required
+src/com/HRManagement/MyDialog1.java:105:	Local variable 'text300' could be declared final
+src/com/HRManagement/MyDialog1.java:108:	Local variable 'query5' could be declared final
+src/com/HRManagement/MyDialog1.java:109:	Ensure that resources like this ResultSet object are closed after use
+src/com/HRManagement/MyDialog1.java:109:	Local variable 'rs5' could be declared final
+src/com/HRManagement/MyDialog1.java:110:	Avoid if (x != y) ..; else ..;
+src/com/HRManagement/MyDialog1.java:110:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/MyDialog1.java:111:	Local variable 'query' could be declared final
+src/com/HRManagement/MyDialog1.java:121:	Avoid printStackTrace(); use a logger call instead.
+src/com/HRManagement/MyDialog1.java:130:	Local variable 'cancelButton' could be declared final
+src/com/HRManagement/MyDialog1.java:133:	Parameter 'arg0' is not assigned and could be declared final
+src/com/HRManagement/MyDialog1.java:133:	publicMethodCommentRequirement Required
+src/com/HRManagement/MyDialog2.java:1:	Package name contains upper case characters
+src/com/HRManagement/MyDialog2.java:22:	headerCommentRequirement Required
+src/com/HRManagement/MyDialog2.java:24:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog2.java:26:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog2.java:28:	Avoid variables with short names like i
+src/com/HRManagement/MyDialog2.java:28:	Use explicit scoping instead of the default package private level
+src/com/HRManagement/MyDialog2.java:28:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog2.java:29:	Private field 'ccb' could be made final; it is only initialized in the declaration or constructor.
+src/com/HRManagement/MyDialog2.java:29:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog2.java:34:	It is a good practice to call super() in a constructor
+src/com/HRManagement/MyDialog2.java:44:	Local variable 'label' could be declared final
+src/com/HRManagement/MyDialog2.java:50:	Local variable 'label1' could be declared final
+src/com/HRManagement/MyDialog2.java:59:	Local variable 'query' could be declared final
+src/com/HRManagement/MyDialog2.java:60:	Avoid variables with short names like rs
+src/com/HRManagement/MyDialog2.java:60:	Ensure that resources like this ResultSet object are closed after use
+src/com/HRManagement/MyDialog2.java:60:	Local variable 'rs' could be declared final
+src/com/HRManagement/MyDialog2.java:66:	Avoid printStackTrace(); use a logger call instead.
+src/com/HRManagement/MyDialog2.java:74:	Local variable 'buttonPane' could be declared final
+src/com/HRManagement/MyDialog2.java:78:	Local variable 'okButton' could be declared final
+src/com/HRManagement/MyDialog2.java:84:	Avoid variables with short names like e
+src/com/HRManagement/MyDialog2.java:84:	Parameter 'e' is not assigned and could be declared final
+src/com/HRManagement/MyDialog2.java:84:	publicMethodCommentRequirement Required
+src/com/HRManagement/MyDialog2.java:86:	Local variable 'text33' could be declared final
+src/com/HRManagement/MyDialog2.java:88:	Local variable 'query' could be declared final
+src/com/HRManagement/MyDialog2.java:98:	Local variable 'cancelButton' could be declared final
+src/com/HRManagement/MyDialog2.java:101:	Parameter 'arg0' is not assigned and could be declared final
+src/com/HRManagement/MyDialog2.java:101:	publicMethodCommentRequirement Required
+src/com/HRManagement/MyDialog3.java:1:	Package name contains upper case characters
+src/com/HRManagement/MyDialog3.java:25:	headerCommentRequirement Required
+src/com/HRManagement/MyDialog3.java:26:	Private field 'cboDemo' could be made final; it is only initialized in the declaration or constructor.
+src/com/HRManagement/MyDialog3.java:26:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog3.java:27:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog3.java:28:	Private field 'textField' could be made final; it is only initialized in the declaration or constructor.
+src/com/HRManagement/MyDialog3.java:28:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog3.java:30:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog3.java:32:	Avoid variables with short names like i
+src/com/HRManagement/MyDialog3.java:32:	Use explicit scoping instead of the default package private level
+src/com/HRManagement/MyDialog3.java:32:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog3.java:33:	Private field 'textField2' could be made final; it is only initialized in the declaration or constructor.
+src/com/HRManagement/MyDialog3.java:33:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog3.java:34:	Private field 'textField4' could be made final; it is only initialized in the declaration or constructor.
+src/com/HRManagement/MyDialog3.java:34:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog3.java:35:	Private field 'textField5' could be made final; it is only initialized in the declaration or constructor.
+src/com/HRManagement/MyDialog3.java:35:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog3.java:40:	It is a good practice to call super() in a constructor
+src/com/HRManagement/MyDialog3.java:50:	Local variable 'panel' could be declared final
+src/com/HRManagement/MyDialog3.java:56:	Local variable 'label' could be declared final
+src/com/HRManagement/MyDialog3.java:61:	Local variable 'label' could be declared final
+src/com/HRManagement/MyDialog3.java:66:	Local variable 'label' could be declared final
+src/com/HRManagement/MyDialog3.java:71:	Local variable 'label' could be declared final
+src/com/HRManagement/MyDialog3.java:76:	Local variable 'label' could be declared final
+src/com/HRManagement/MyDialog3.java:112:	Local variable 'query' could be declared final
+src/com/HRManagement/MyDialog3.java:113:	Avoid variables with short names like rs
+src/com/HRManagement/MyDialog3.java:113:	Ensure that resources like this ResultSet object are closed after use
+src/com/HRManagement/MyDialog3.java:113:	Local variable 'rs' could be declared final
+src/com/HRManagement/MyDialog3.java:119:	Avoid printStackTrace(); use a logger call instead.
+src/com/HRManagement/MyDialog3.java:124:	Local variable 'label' could be declared final
+src/com/HRManagement/MyDialog3.java:131:	Local variable 'buttonPane' could be declared final
+src/com/HRManagement/MyDialog3.java:135:	Local variable 'okButton' could be declared final
+src/com/HRManagement/MyDialog3.java:141:	Avoid variables with short names like e
+src/com/HRManagement/MyDialog3.java:141:	Parameter 'e' is not assigned and could be declared final
+src/com/HRManagement/MyDialog3.java:141:	publicMethodCommentRequirement Required
+src/com/HRManagement/MyDialog3.java:143:	Local variable 'text1' could be declared final
+src/com/HRManagement/MyDialog3.java:144:	Local variable 'text2' could be declared final
+src/com/HRManagement/MyDialog3.java:145:	Local variable 'text3' could be declared final
+src/com/HRManagement/MyDialog3.java:146:	Local variable 'text4' could be declared final
+src/com/HRManagement/MyDialog3.java:147:	Local variable 'text5' could be declared final
+src/com/HRManagement/MyDialog3.java:149:	Local variable 'query' could be declared final
+src/com/HRManagement/MyDialog3.java:149:	The String literal "','" appears 4 times in this file; the first occurrence is on line 149
+src/com/HRManagement/MyDialog3.java:154:	Local variable 'query8' could be declared final
+src/com/HRManagement/MyDialog3.java:155:	Avoid variables with short names like rs
+src/com/HRManagement/MyDialog3.java:155:	Ensure that resources like this ResultSet object are closed after use
+src/com/HRManagement/MyDialog3.java:155:	Local variable 'rs' could be declared final
+src/com/HRManagement/MyDialog3.java:156:	Potential violation of Law of Demeter (static property access)
+src/com/HRManagement/MyDialog3.java:157:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/MyDialog3.java:158:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/MyDialog3.java:158:	Potential violation of Law of Demeter (static property access)
+src/com/HRManagement/MyDialog3.java:163:	Avoid printStackTrace(); use a logger call instead.
+src/com/HRManagement/MyDialog3.java:177:	Local variable 'cancelButton' could be declared final
+src/com/HRManagement/MyDialog3.java:179:	Parameter 'arg0' is not assigned and could be declared final
+src/com/HRManagement/MyDialog3.java:179:	publicMethodCommentRequirement Required
+src/com/HRManagement/MyDialog4.java:1:	Package name contains upper case characters
+src/com/HRManagement/MyDialog4.java:26:	The class 'MyDialog4' has a Cyclomatic Complexity of 19 (Highest = 18).
+src/com/HRManagement/MyDialog4.java:26:	The class 'MyDialog4' has a Modified Cyclomatic Complexity of 15 (Highest = 14).
+src/com/HRManagement/MyDialog4.java:26:	The class 'MyDialog4' has a Standard Cyclomatic Complexity of 15 (Highest = 14).
+src/com/HRManagement/MyDialog4.java:26:	headerCommentRequirement Required
+src/com/HRManagement/MyDialog4.java:27:	Avoid variables with short names like cb
+src/com/HRManagement/MyDialog4.java:27:	Possible unsafe assignment to a non-final static field in a constructor.
+src/com/HRManagement/MyDialog4.java:27:	Use explicit scoping instead of the default package private level
+src/com/HRManagement/MyDialog4.java:27:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog4.java:28:	Private field 'cbb' could be made final; it is only initialized in the declaration or constructor.
+src/com/HRManagement/MyDialog4.java:28:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog4.java:29:	Possible unsafe assignment to a non-final static field in a constructor.
+src/com/HRManagement/MyDialog4.java:29:	Use explicit scoping instead of the default package private level
+src/com/HRManagement/MyDialog4.java:29:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog4.java:31:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog4.java:33:	Avoid variables with short names like i
+src/com/HRManagement/MyDialog4.java:33:	Use explicit scoping instead of the default package private level
+src/com/HRManagement/MyDialog4.java:33:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog4.java:34:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog4.java:35:	Private field 'textField' could be made final; it is only initialized in the declaration or constructor.
+src/com/HRManagement/MyDialog4.java:35:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog4.java:36:	Private field 'textField2' could be made final; it is only initialized in the declaration or constructor.
+src/com/HRManagement/MyDialog4.java:36:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog4.java:37:	Private field 'textField3' could be made final; it is only initialized in the declaration or constructor.
+src/com/HRManagement/MyDialog4.java:37:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog4.java:38:	Private field 'textField4' could be made final; it is only initialized in the declaration or constructor.
+src/com/HRManagement/MyDialog4.java:38:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog4.java:39:	Private field 'label1' could be made final; it is only initialized in the declaration or constructor.
+src/com/HRManagement/MyDialog4.java:39:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog4.java:45:	It is a good practice to call super() in a constructor
+src/com/HRManagement/MyDialog4.java:45:	The constructor 'MyDialog4' has a Cyclomatic Complexity of 18.
+src/com/HRManagement/MyDialog4.java:45:	The constructor 'MyDialog4' has a Modified Cyclomatic Complexity of 14.
+src/com/HRManagement/MyDialog4.java:45:	The constructor 'MyDialog4' has a Standard Cyclomatic Complexity of 14.
+src/com/HRManagement/MyDialog4.java:45:	The constructor with 0 parameters has an NCSS line count of 102
+src/com/HRManagement/MyDialog4.java:62:	Local variable 'cboo' could be declared final
+src/com/HRManagement/MyDialog4.java:73:	Local variable 'lblNewLabel' could be declared final
+src/com/HRManagement/MyDialog4.java:79:	Local variable 'label' could be declared final
+src/com/HRManagement/MyDialog4.java:83:	Local variable 'label1' could be declared final
+src/com/HRManagement/MyDialog4.java:87:	Local variable 'label2' could be declared final
+src/com/HRManagement/MyDialog4.java:91:	Local variable 'label3' could be declared final
+src/com/HRManagement/MyDialog4.java:95:	Local variable 'label4' could be declared final
+src/com/HRManagement/MyDialog4.java:124:	Local variable 'query' could be declared final
+src/com/HRManagement/MyDialog4.java:125:	Avoid variables with short names like rs
+src/com/HRManagement/MyDialog4.java:125:	Ensure that resources like this ResultSet object are closed after use
+src/com/HRManagement/MyDialog4.java:125:	Local variable 'rs' could be declared final
+src/com/HRManagement/MyDialog4.java:132:	Avoid printStackTrace(); use a logger call instead.
+src/com/HRManagement/MyDialog4.java:146:	Local variable 'query' could be declared final
+src/com/HRManagement/MyDialog4.java:147:	Ensure that resources like this ResultSet object are closed after use
+src/com/HRManagement/MyDialog4.java:147:	Local variable 'rs9' could be declared final
+src/com/HRManagement/MyDialog4.java:155:	Avoid printStackTrace(); use a logger call instead.
+src/com/HRManagement/MyDialog4.java:168:	Local variable 'button' could be declared final
+src/com/HRManagement/MyDialog4.java:170:	Parameter 'arg0' is not assigned and could be declared final
+src/com/HRManagement/MyDialog4.java:170:	publicMethodCommentRequirement Required
+src/com/HRManagement/MyDialog4.java:172:	Local variable 'text30' could be declared final
+src/com/HRManagement/MyDialog4.java:175:	Local variable 'query1' could be declared final
+src/com/HRManagement/MyDialog4.java:176:	Ensure that resources like this ResultSet object are closed after use
+src/com/HRManagement/MyDialog4.java:176:	Local variable 'rs1' could be declared final
+src/com/HRManagement/MyDialog4.java:177:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/MyDialog4.java:179:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/MyDialog4.java:180:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/MyDialog4.java:181:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/MyDialog4.java:182:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/MyDialog4.java:183:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/MyDialog4.java:184:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/MyDialog4.java:191:	Avoid printStackTrace(); use a logger call instead.
+src/com/HRManagement/MyDialog4.java:191:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/MyDialog4.java:198:	Local variable 'label' could be declared final
+src/com/HRManagement/MyDialog4.java:204:	Local variable 'buttonPane' could be declared final
+src/com/HRManagement/MyDialog4.java:208:	Local variable 'btnSave' could be declared final
+src/com/HRManagement/MyDialog4.java:212:	Avoid variables with short names like e
+src/com/HRManagement/MyDialog4.java:212:	Parameter 'e' is not assigned and could be declared final
+src/com/HRManagement/MyDialog4.java:212:	publicMethodCommentRequirement Required
+src/com/HRManagement/MyDialog4.java:214:	Potential violation of Law of Demeter (method chain calls)
+src/com/HRManagement/MyDialog4.java:214:	Potential violation of Law of Demeter (method chain calls)
+src/com/HRManagement/MyDialog4.java:214:	Potential violation of Law of Demeter (method chain calls)
+src/com/HRManagement/MyDialog4.java:214:	Potential violation of Law of Demeter (method chain calls)
+src/com/HRManagement/MyDialog4.java:219:	Local variable 'query10' could be declared final
+src/com/HRManagement/MyDialog4.java:222:	Local variable 'text1' could be declared final
+src/com/HRManagement/MyDialog4.java:223:	Local variable 'text2' could be declared final
+src/com/HRManagement/MyDialog4.java:224:	Local variable 'text3' could be declared final
+src/com/HRManagement/MyDialog4.java:225:	Local variable 'text4' could be declared final
+src/com/HRManagement/MyDialog4.java:226:	Local variable 'text5' could be declared final
+src/com/HRManagement/MyDialog4.java:228:	Local variable 'query' could be declared final
+src/com/HRManagement/MyDialog4.java:228:	The String literal "','" appears 4 times in this file; the first occurrence is on line 228
+src/com/HRManagement/MyDialog4.java:229:	Local variable 'saved' could be declared final
+src/com/HRManagement/MyDialog4.java:239:	Local variable 'query8' could be declared final
+src/com/HRManagement/MyDialog4.java:240:	Avoid variables with short names like rs
+src/com/HRManagement/MyDialog4.java:240:	Ensure that resources like this ResultSet object are closed after use
+src/com/HRManagement/MyDialog4.java:240:	Local variable 'rs' could be declared final
+src/com/HRManagement/MyDialog4.java:241:	Potential violation of Law of Demeter (static property access)
+src/com/HRManagement/MyDialog4.java:242:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/MyDialog4.java:243:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/MyDialog4.java:243:	Potential violation of Law of Demeter (static property access)
+src/com/HRManagement/MyDialog4.java:248:	Avoid printStackTrace(); use a logger call instead.
+src/com/HRManagement/MyDialog4.java:258:	Local variable 'cancelButton' could be declared final
+src/com/HRManagement/MyDialog4.java:261:	Parameter 'arg0' is not assigned and could be declared final
+src/com/HRManagement/MyDialog4.java:261:	publicMethodCommentRequirement Required
+src/com/HRManagement/MyDialog5.java:1:	Package name contains upper case characters
+src/com/HRManagement/MyDialog5.java:27:	The class 'MyDialog5' has a Cyclomatic Complexity of 13 (Highest = 12).
+src/com/HRManagement/MyDialog5.java:27:	The class 'MyDialog5' has a Modified Cyclomatic Complexity of 13 (Highest = 12).
+src/com/HRManagement/MyDialog5.java:27:	The class 'MyDialog5' has a Standard Cyclomatic Complexity of 13 (Highest = 12).
+src/com/HRManagement/MyDialog5.java:27:	headerCommentRequirement Required
+src/com/HRManagement/MyDialog5.java:28:	Avoid variables with short names like cb
+src/com/HRManagement/MyDialog5.java:28:	Possible unsafe assignment to a non-final static field in a constructor.
+src/com/HRManagement/MyDialog5.java:28:	Use explicit scoping instead of the default package private level
+src/com/HRManagement/MyDialog5.java:28:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog5.java:29:	Possible unsafe assignment to a non-final static field in a constructor.
+src/com/HRManagement/MyDialog5.java:29:	Use explicit scoping instead of the default package private level
+src/com/HRManagement/MyDialog5.java:29:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog5.java:30:	Possible unsafe assignment to a non-final static field in a constructor.
+src/com/HRManagement/MyDialog5.java:30:	Use explicit scoping instead of the default package private level
+src/com/HRManagement/MyDialog5.java:30:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog5.java:31:	Private field 'textPane' could be made final; it is only initialized in the declaration or constructor.
+src/com/HRManagement/MyDialog5.java:31:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog5.java:33:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog5.java:35:	Avoid variables with short names like i
+src/com/HRManagement/MyDialog5.java:35:	Use explicit scoping instead of the default package private level
+src/com/HRManagement/MyDialog5.java:35:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog5.java:36:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog5.java:37:	Private field 'textField' could be made final; it is only initialized in the declaration or constructor.
+src/com/HRManagement/MyDialog5.java:37:	fieldCommentRequirement Required
+src/com/HRManagement/MyDialog5.java:43:	It is a good practice to call super() in a constructor
+src/com/HRManagement/MyDialog5.java:43:	Parameter 'permission' is not assigned and could be declared final
+src/com/HRManagement/MyDialog5.java:43:	The constructor 'MyDialog5' has a Cyclomatic Complexity of 12.
+src/com/HRManagement/MyDialog5.java:43:	The constructor 'MyDialog5' has a Modified Cyclomatic Complexity of 12.
+src/com/HRManagement/MyDialog5.java:43:	The constructor 'MyDialog5' has a Standard Cyclomatic Complexity of 12.
+src/com/HRManagement/MyDialog5.java:67:	Local variable 'cboo' could be declared final
+src/com/HRManagement/MyDialog5.java:81:	Local variable 'lblNewLabel' could be declared final
+src/com/HRManagement/MyDialog5.java:87:	Local variable 'label' could be declared final
+src/com/HRManagement/MyDialog5.java:91:	Local variable 'label1' could be declared final
+src/com/HRManagement/MyDialog5.java:107:	Local variable 'query' could be declared final
+src/com/HRManagement/MyDialog5.java:108:	Avoid variables with short names like rs
+src/com/HRManagement/MyDialog5.java:108:	Ensure that resources like this ResultSet object are closed after use
+src/com/HRManagement/MyDialog5.java:108:	Local variable 'rs' could be declared final
+src/com/HRManagement/MyDialog5.java:114:	Avoid printStackTrace(); use a logger call instead.
+src/com/HRManagement/MyDialog5.java:122:	Local variable 'button' could be declared final
+src/com/HRManagement/MyDialog5.java:124:	Parameter 'arg0' is not assigned and could be declared final
+src/com/HRManagement/MyDialog5.java:124:	publicMethodCommentRequirement Required
+src/com/HRManagement/MyDialog5.java:125:	Local variable 'text30' could be declared final
+src/com/HRManagement/MyDialog5.java:129:	Local variable 'query1' could be declared final
+src/com/HRManagement/MyDialog5.java:130:	Ensure that resources like this ResultSet object are closed after use
+src/com/HRManagement/MyDialog5.java:130:	Local variable 'rs1' could be declared final
+src/com/HRManagement/MyDialog5.java:131:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/MyDialog5.java:133:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/MyDialog5.java:134:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/MyDialog5.java:138:	Avoid printStackTrace(); use a logger call instead.
+src/com/HRManagement/MyDialog5.java:138:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/MyDialog5.java:147:	Local variable 'query12' could be declared final
+src/com/HRManagement/MyDialog5.java:148:	Ensure that resources like this ResultSet object are closed after use
+src/com/HRManagement/MyDialog5.java:148:	Local variable 'rs1' could be declared final
+src/com/HRManagement/MyDialog5.java:149:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/MyDialog5.java:151:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/MyDialog5.java:152:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/MyDialog5.java:158:	Avoid printStackTrace(); use a logger call instead.
+src/com/HRManagement/MyDialog5.java:158:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/MyDialog5.java:170:	Local variable 'label' could be declared final
+src/com/HRManagement/MyDialog5.java:176:	Local variable 'buttonPane' could be declared final
+src/com/HRManagement/MyDialog5.java:180:	Local variable 'btnSave' could be declared final
+src/com/HRManagement/MyDialog5.java:182:	Avoid variables with short names like e
+src/com/HRManagement/MyDialog5.java:182:	Parameter 'e' is not assigned and could be declared final
+src/com/HRManagement/MyDialog5.java:182:	publicMethodCommentRequirement Required
+src/com/HRManagement/MyDialog5.java:184:	Local variable 'query80' could be declared final
+src/com/HRManagement/MyDialog5.java:187:	Local variable 'text4' could be declared final
+src/com/HRManagement/MyDialog5.java:188:	Local variable 'text1' could be declared final
+src/com/HRManagement/MyDialog5.java:190:	Local variable 'query' could be declared final
+src/com/HRManagement/MyDialog5.java:191:	Local variable 'saved' could be declared final
+src/com/HRManagement/MyDialog5.java:204:	Local variable 'cancelButton' could be declared final
+src/com/HRManagement/MyDialog5.java:207:	Parameter 'arg0' is not assigned and could be declared final
+src/com/HRManagement/MyDialog5.java:207:	publicMethodCommentRequirement Required
+src/com/HRManagement/MyDialog5.java:208:	Avoid using Literals in Conditional Statements
+src/com/HRManagement/MyDialog5.java:209:	Avoid variables with short names like hr
+src/com/HRManagement/MyDialog5.java:209:	Local variable 'hr' could be declared final
+src/com/HRManagement/MyDialog5.java:212:	Avoid variables with short names like pr
+src/com/HRManagement/MyDialog5.java:212:	Local variable 'pr' could be declared final
+src/com/HRManagement/MySQL.java:1:	Package name contains upper case characters
+src/com/HRManagement/MySQL.java:9:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/com/HRManagement/MySQL.java:9:	headerCommentRequirement Required
+src/com/HRManagement/MySQL.java:11:	fieldCommentRequirement Required
+src/com/HRManagement/MySQL.java:12:	Use explicit scoping instead of the default package private level
+src/com/HRManagement/MySQL.java:12:	fieldCommentRequirement Required
+src/com/HRManagement/MySQL.java:13:	Use explicit scoping instead of the default package private level
+src/com/HRManagement/MySQL.java:13:	fieldCommentRequirement Required
+src/com/HRManagement/MySQL.java:14:	Use explicit scoping instead of the default package private level
+src/com/HRManagement/MySQL.java:14:	fieldCommentRequirement Required
+src/com/HRManagement/MySQL.java:15:	Use explicit scoping instead of the default package private level
+src/com/HRManagement/MySQL.java:15:	fieldCommentRequirement Required
+src/com/HRManagement/MySQL.java:17:	publicMethodCommentRequirement Required
+src/com/HRManagement/MySQL.java:23:	Avoid printStackTrace(); use a logger call instead.
+src/com/HRManagement/MySQL.java:23:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/MySQL.java:25:	Avoid printStackTrace(); use a logger call instead.
+src/com/HRManagement/MySQL.java:25:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/MySQL.java:30:	Parameter 'conn' is not assigned and could be declared final
+src/com/HRManagement/MySQL.java:30:	Parameter 'query' is not assigned and could be declared final
+src/com/HRManagement/MySQL.java:30:	publicMethodCommentRequirement Required
+src/com/HRManagement/MySQL.java:31:	Ensure that resources like this Statement object are closed after use
+src/com/HRManagement/MySQL.java:36:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/MySQL.java:37:	A method should have only one exit point, and that should be the last statement in the method
+src/com/HRManagement/MySQL.java:37:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/MySQL.java:40:	Avoid printStackTrace(); use a logger call instead.
+src/com/HRManagement/MySQL.java:40:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/MySQL.java:46:	Parameter 'conn' is not assigned and could be declared final
+src/com/HRManagement/MySQL.java:46:	Parameter 'query' is not assigned and could be declared final
+src/com/HRManagement/MySQL.java:46:	publicMethodCommentRequirement Required
+src/com/HRManagement/MySQL.java:47:	Ensure that resources like this Statement object are closed after use
+src/com/HRManagement/MySQL.java:52:	Local variable 'result' could be declared final
+src/com/HRManagement/MySQL.java:52:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/MySQL.java:53:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/MySQL.java:55:	A method should have only one exit point, and that should be the last statement in the method
+src/com/HRManagement/MySQL.java:57:	A method should have only one exit point, and that should be the last statement in the method
+src/com/HRManagement/MySQL.java:57:	Avoid using if...else statements without curly braces
+src/com/HRManagement/MySQL.java:60:	Avoid printStackTrace(); use a logger call instead.
+src/com/HRManagement/MySQL.java:60:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/ProistamenosDialog.java:1:	Package name contains upper case characters
+src/com/HRManagement/ProistamenosDialog.java:29:	The class 'ProistamenosDialog' has a Cyclomatic Complexity of 13 (Highest = 12).
+src/com/HRManagement/ProistamenosDialog.java:29:	The class 'ProistamenosDialog' has a Modified Cyclomatic Complexity of 13 (Highest = 12).
+src/com/HRManagement/ProistamenosDialog.java:29:	The class 'ProistamenosDialog' has a Standard Cyclomatic Complexity of 13 (Highest = 12).
+src/com/HRManagement/ProistamenosDialog.java:29:	headerCommentRequirement Required
+src/com/HRManagement/ProistamenosDialog.java:30:	Avoid variables with short names like cb
+src/com/HRManagement/ProistamenosDialog.java:30:	Possible unsafe assignment to a non-final static field in a constructor.
+src/com/HRManagement/ProistamenosDialog.java:30:	Use explicit scoping instead of the default package private level
+src/com/HRManagement/ProistamenosDialog.java:30:	fieldCommentRequirement Required
+src/com/HRManagement/ProistamenosDialog.java:31:	fieldCommentRequirement Required
+src/com/HRManagement/ProistamenosDialog.java:33:	Avoid variables with short names like i
+src/com/HRManagement/ProistamenosDialog.java:33:	Use explicit scoping instead of the default package private level
+src/com/HRManagement/ProistamenosDialog.java:33:	fieldCommentRequirement Required
+src/com/HRManagement/ProistamenosDialog.java:34:	fieldCommentRequirement Required
+src/com/HRManagement/ProistamenosDialog.java:35:	Private field 'textField' could be made final; it is only initialized in the declaration or constructor.
+src/com/HRManagement/ProistamenosDialog.java:35:	fieldCommentRequirement Required
+src/com/HRManagement/ProistamenosDialog.java:36:	Private field 'textField1' could be made final; it is only initialized in the declaration or constructor.
+src/com/HRManagement/ProistamenosDialog.java:36:	fieldCommentRequirement Required
+src/com/HRManagement/ProistamenosDialog.java:37:	Private field 'textField2' could be made final; it is only initialized in the declaration or constructor.
+src/com/HRManagement/ProistamenosDialog.java:37:	fieldCommentRequirement Required
+src/com/HRManagement/ProistamenosDialog.java:38:	Private field 'textField3' could be made final; it is only initialized in the declaration or constructor.
+src/com/HRManagement/ProistamenosDialog.java:38:	fieldCommentRequirement Required
+src/com/HRManagement/ProistamenosDialog.java:39:	Private field 'textField4' could be made final; it is only initialized in the declaration or constructor.
+src/com/HRManagement/ProistamenosDialog.java:39:	fieldCommentRequirement Required
+src/com/HRManagement/ProistamenosDialog.java:45:	It is a good practice to call super() in a constructor
+src/com/HRManagement/ProistamenosDialog.java:45:	Parameter 'permission' is not assigned and could be declared final
+src/com/HRManagement/ProistamenosDialog.java:45:	The constructor 'ProistamenosDialog' has a Cyclomatic Complexity of 12.
+src/com/HRManagement/ProistamenosDialog.java:45:	The constructor 'ProistamenosDialog' has a Modified Cyclomatic Complexity of 12.
+src/com/HRManagement/ProistamenosDialog.java:45:	The constructor 'ProistamenosDialog' has a Standard Cyclomatic Complexity of 12.
+src/com/HRManagement/ProistamenosDialog.java:45:	The constructor with 1 parameters has an NCSS line count of 124
+src/com/HRManagement/ProistamenosDialog.java:58:	Local variable 'menuBar1' could be declared final
+src/com/HRManagement/ProistamenosDialog.java:62:	Local variable 'menu' could be declared final
+src/com/HRManagement/ProistamenosDialog.java:65:	Local variable 'mnNewMenu1' could be declared final
+src/com/HRManagement/ProistamenosDialog.java:68:	Local variable 'menuItem1' could be declared final
+src/com/HRManagement/ProistamenosDialog.java:71:	Parameter 'arg0' is not assigned and could be declared final
+src/com/HRManagement/ProistamenosDialog.java:71:	publicMethodCommentRequirement Required
+src/com/HRManagement/ProistamenosDialog.java:72:	Local variable 'jdo' could be declared final
+src/com/HRManagement/ProistamenosDialog.java:86:	Local variable 'mnNewMenu2' could be declared final
+src/com/HRManagement/ProistamenosDialog.java:89:	Local variable 'mntmNewMenuItem4' could be declared final
+src/com/HRManagement/ProistamenosDialog.java:93:	Avoid variables with short names like e
+src/com/HRManagement/ProistamenosDialog.java:93:	Parameter 'e' is not assigned and could be declared final
+src/com/HRManagement/ProistamenosDialog.java:93:	publicMethodCommentRequirement Required
+src/com/HRManagement/ProistamenosDialog.java:94:	Avoid variables with short names like jd
+src/com/HRManagement/ProistamenosDialog.java:94:	Local variable 'jd' could be declared final
+src/com/HRManagement/ProistamenosDialog.java:100:	Local variable 'mntmNewMenuItem5' could be declared final
+src/com/HRManagement/ProistamenosDialog.java:104:	Avoid variables with short names like e
+src/com/HRManagement/ProistamenosDialog.java:104:	Parameter 'e' is not assigned and could be declared final
+src/com/HRManagement/ProistamenosDialog.java:104:	publicMethodCommentRequirement Required
+src/com/HRManagement/ProistamenosDialog.java:105:	Local variable 'jdoo' could be declared final
+src/com/HRManagement/ProistamenosDialog.java:111:	Local variable 'separator' could be declared final
+src/com/HRManagement/ProistamenosDialog.java:114:	Local variable 'menuItem' could be declared final
+src/com/HRManagement/ProistamenosDialog.java:118:	Avoid variables with short names like e
+src/com/HRManagement/ProistamenosDialog.java:118:	Parameter 'e' is not assigned and could be declared final
+src/com/HRManagement/ProistamenosDialog.java:118:	publicMethodCommentRequirement Required
+src/com/HRManagement/ProistamenosDialog.java:119:	Avoid variables with short names like jd
+src/com/HRManagement/ProistamenosDialog.java:119:	Local variable 'jd' could be declared final
+src/com/HRManagement/ProistamenosDialog.java:125:	Local variable 'menuBar' could be declared final
+src/com/HRManagement/ProistamenosDialog.java:140:	Local variable 'cboo' could be declared final
+src/com/HRManagement/ProistamenosDialog.java:151:	Local variable 'lblNewLabel1' could be declared final
+src/com/HRManagement/ProistamenosDialog.java:157:	Local variable 'lblNewLabel' could be declared final
+src/com/HRManagement/ProistamenosDialog.java:163:	Local variable 'label' could be declared final
+src/com/HRManagement/ProistamenosDialog.java:167:	Local variable 'label1' could be declared final
+src/com/HRManagement/ProistamenosDialog.java:171:	Local variable 'label2' could be declared final
+src/com/HRManagement/ProistamenosDialog.java:175:	Local variable 'label3' could be declared final
+src/com/HRManagement/ProistamenosDialog.java:179:	Local variable 'label4' could be declared final
+src/com/HRManagement/ProistamenosDialog.java:220:	Local variable 'query' could be declared final
+src/com/HRManagement/ProistamenosDialog.java:221:	Avoid variables with short names like rs
+src/com/HRManagement/ProistamenosDialog.java:221:	Ensure that resources like this ResultSet object are closed after use
+src/com/HRManagement/ProistamenosDialog.java:221:	Local variable 'rs' could be declared final
+src/com/HRManagement/ProistamenosDialog.java:227:	Avoid printStackTrace(); use a logger call instead.
+src/com/HRManagement/ProistamenosDialog.java:238:	Local variable 'button' could be declared final
+src/com/HRManagement/ProistamenosDialog.java:240:	Parameter 'arg0' is not assigned and could be declared final
+src/com/HRManagement/ProistamenosDialog.java:240:	publicMethodCommentRequirement Required
+src/com/HRManagement/ProistamenosDialog.java:241:	Local variable 'text30' could be declared final
+src/com/HRManagement/ProistamenosDialog.java:244:	Local variable 'query1' could be declared final
+src/com/HRManagement/ProistamenosDialog.java:245:	Ensure that resources like this ResultSet object are closed after use
+src/com/HRManagement/ProistamenosDialog.java:245:	Local variable 'rs1' could be declared final
+src/com/HRManagement/ProistamenosDialog.java:246:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/ProistamenosDialog.java:248:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/ProistamenosDialog.java:249:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/ProistamenosDialog.java:250:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/ProistamenosDialog.java:251:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/ProistamenosDialog.java:252:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/ProistamenosDialog.java:259:	Avoid printStackTrace(); use a logger call instead.
+src/com/HRManagement/ProistamenosDialog.java:269:	Local variable 'buttonPane' could be declared final
+src/com/HRManagement/ProistamenosDialog.java:273:	Local variable 'btnSave' could be declared final
+src/com/HRManagement/ProistamenosDialog.java:275:	Avoid variables with short names like e
+src/com/HRManagement/ProistamenosDialog.java:275:	Parameter 'e' is not assigned and could be declared final
+src/com/HRManagement/ProistamenosDialog.java:275:	publicMethodCommentRequirement Required
+src/com/HRManagement/ProistamenosDialog.java:287:	Local variable 'cancelButton' could be declared final
+src/com/HRManagement/ProistamenosDialog.java:290:	Parameter 'arg0' is not assigned and could be declared final
+src/com/HRManagement/ProistamenosDialog.java:290:	publicMethodCommentRequirement Required
+src/com/HRManagement/ProistamenosDialog.java:291:	Avoid variables with short names like iq
+src/com/HRManagement/ProistamenosDialog.java:291:	Local variable 'iq' could be declared final
+src/com/HRManagement/UserController.java:1:	Package name contains upper case characters
+src/com/HRManagement/UserController.java:7:	headerCommentRequirement Required
+src/com/HRManagement/UserController.java:9:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/HRManagement/UserController.java:9:	fieldCommentRequirement Required
+src/com/HRManagement/UserController.java:11:	publicMethodCommentRequirement Required
+src/com/HRManagement/UserController.java:15:	Parameter 'username' is not assigned and could be declared final
+src/com/HRManagement/UserController.java:15:	publicMethodCommentRequirement Required
+src/com/HRManagement/UserController.java:16:	Found 'DD'-anomaly for variable 'division' (lines '16'-'26').
+src/com/HRManagement/UserController.java:18:	Local variable 'query' could be declared final
+src/com/HRManagement/UserController.java:19:	Avoid variables with short names like rs
+src/com/HRManagement/UserController.java:19:	Ensure that resources like this ResultSet object are closed after use
+src/com/HRManagement/UserController.java:19:	Local variable 'rs' could be declared final
+src/com/HRManagement/UserController.java:21:	Avoid empty if statements
+src/com/HRManagement/UserController.java:21:	Avoid empty if statements
+src/com/HRManagement/UserController.java:21:	Avoid if (x != y) ..; else ..;
+src/com/HRManagement/UserController.java:21:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/UserController.java:26:	Found 'DD'-anomaly for variable 'division' (lines '26'-'26').
+src/com/HRManagement/UserController.java:26:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/UserController.java:27:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/UserController.java:32:	Avoid printStackTrace(); use a logger call instead.
+src/com/HRManagement/UserController.java:32:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/UserController.java:35:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/UserController.java:36:	A method should have only one exit point, and that should be the last statement in the method
+src/com/HRManagement/UserController.java:37:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/UserController.java:38:	A method should have only one exit point, and that should be the last statement in the method
+src/com/HRManagement/UserController.java:43:	Parameter 'password' is not assigned and could be declared final
+src/com/HRManagement/UserController.java:43:	Parameter 'username' is not assigned and could be declared final
+src/com/HRManagement/UserController.java:43:	publicMethodCommentRequirement Required
+src/com/HRManagement/UserController.java:45:	Found 'DD'-anomaly for variable 'verifiedPassword' (lines '45'-'57').
+src/com/HRManagement/UserController.java:47:	Local variable 'query' could be declared final
+src/com/HRManagement/UserController.java:48:	Avoid variables with short names like rs
+src/com/HRManagement/UserController.java:48:	Ensure that resources like this ResultSet object are closed after use
+src/com/HRManagement/UserController.java:48:	Local variable 'rs' could be declared final
+src/com/HRManagement/UserController.java:52:	Avoid empty if statements
+src/com/HRManagement/UserController.java:52:	Avoid empty if statements
+src/com/HRManagement/UserController.java:52:	Avoid if (x != y) ..; else ..;
+src/com/HRManagement/UserController.java:52:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/UserController.java:57:	Found 'DD'-anomaly for variable 'verifiedPassword' (lines '57'-'57').
+src/com/HRManagement/UserController.java:57:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/UserController.java:58:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/UserController.java:62:	Avoid printStackTrace(); use a logger call instead.
+src/com/HRManagement/UserController.java:62:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/UserController.java:65:	Avoid unnecessary if..then..else statements when returning booleans
+src/com/HRManagement/UserController.java:65:	Potential violation of Law of Demeter (object not created locally)
+src/com/HRManagement/UserController.java:66:	A method should have only one exit point, and that should be the last statement in the method

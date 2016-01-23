@@ -49,15 +49,8 @@ public class MyDialog4 extends JDialog {
 		setVisible(true);
 		setTitle("\u0395\u03C0\u03B5\u03BE\u03B5\u03C1\u03B3\u03B1\u03C3\u03AF\u03B1 \u03A3\u03C4\u03BF\u03B9\u03C7\u03B5\u03AF\u03C9\u03BD \u03A5\u03C0\u03B1\u03BB\u03BB\u03AE\u03BB\u03BF\u03C5");
 		
-		
-		
-		
 		//setDefaultCloseOperation(JDialog.EXIT_ON_CLOSE);
 		setBounds(100, 100, 467, 321);
-		
-		
-		
-		
 		
 		setBounds(100, 100, 467, 321);
 		getContentPane().setLayout(new BorderLayout());
@@ -70,9 +63,6 @@ public class MyDialog4 extends JDialog {
 		cboo.setBounds(10, 11, 214, 26);
 		cboo.setBackground(Color.WHITE);
 		contentPanel.add(cboo);
-		
-		
-		
 		
 		{
 
@@ -165,7 +155,6 @@ public class MyDialog4 extends JDialog {
 				e1.printStackTrace();
 			}
 }
-		
 		{
 			label1 = new JLabel("");
 			label1.setToolTipText("\u0393\u03B9\u03B1 \u03C0\u03C1\u03BF\u03B2\u03BF\u03BB\u03AE \u03C4\u03BF\u03C5 \u03AE\u03B4\u03B7 \u03BA\u03B1\u03C4\u03B1\u03C7\u03C9\u03C1\u03B7\u03BC\u03AD\u03BD\u03BF\u03C5 \u03C4\u03BC\u03AE\u03BC\u03B1\u03C4\u03BF\u03C2, \u03BC\u03B5\u03C4\u03B1\u03BA\u03B9\u03BD\u03AE\u03C3\u03C4\u03B5 \u03C4\u03BF \u03B2\u03B5\u03BB\u03AC\u03BA\u03B9 \u03B5\u03C0\u03AC\u03BD\u03C9 \u03C3\u03C4\u03BF \u03C0\u03B5\u03B4\u03AF\u03BF");
@@ -176,7 +165,6 @@ public class MyDialog4 extends JDialog {
 			
 		}
 		
-		
 		JButton button = new JButton("\u03A0\u03C1\u03BF\u03B2\u03BF\u03BB\u03AE \u03A3\u03C4\u03BF\u03B9\u03C7\u03B5\u03AF\u03C9\u03BD \u03C0\u03C1\u03BF\u03C2 \u0395\u03C0\u03B5\u03BE\u03B5\u03C1\u03B3\u03B1\u03C3\u03AF\u03B1");
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
@@ -184,7 +172,6 @@ public class MyDialog4 extends JDialog {
 				Object text30 = cb.getSelectedItem();
 
 				try {
-
 					String query1 = "Select * from employees where name='"+text30+"';";
 					ResultSet rs1 = MySQL.executeQuery(query1, conn);
 					while(rs1.next())
@@ -212,73 +199,59 @@ public class MyDialog4 extends JDialog {
 		label.setIcon(new ImageIcon(MyDialog4.class.getResource("/Pictures/person_edit.png")));
 		label.setBounds(314, 0, 126, 118);
 		contentPanel.add(label);
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+				
 		{
 			JPanel buttonPane = new JPanel();
 			buttonPane.setLayout(new FlowLayout(FlowLayout.RIGHT));
 			getContentPane().add(buttonPane, BorderLayout.SOUTH);
 			
 			JButton btnSave = new JButton("\u0391\u03C0\u03BF\u03B8\u03AE\u03BA\u03B5\u03C5\u03C3\u03B7");
+			
 			btnSave.addActionListener(new ActionListener() {
+				
 				public void actionPerformed(ActionEvent e) {
-											
-					String query10 = "Delete from employees where name='"+onoma+"' ";
-					MySQL.executeUpdate(query10, conn);
 					
-					String text1 = textField.getText();
-					String text2 = textField2.getText();
-					String text3 = (String) cbb.getSelectedItem();
-					String text4 = textField3.getText();
-					String text5 = textField4.getText();
-					
-					String query = "Insert into employees values('"+text1+"','"+text4+"','"+text3+"','"+text5+"','"+text2+"')";
-					boolean saved = MySQL.executeUpdate(query, conn);
-					//i.setVisible(false);
-					
-					if (saved){
-						JOptionPane.showMessageDialog(contentPanel,"Αποθηκεύτικε επιτυχώς!","Info",JOptionPane.INFORMATION_MESSAGE);
+					if(textField.getText().equals("")|| cbb.getSelectedIndex() == -1 ||textField2.getText().equals("") || textField3.getText().equals("") || textField4.getText().equals("") ){
+
+						JOptionPane.showMessageDialog(null, "Δεν καταχωρήθηκαν δεδομένα");
+						//btnSave.setEnabled(false);
 					}else{
-						JOptionPane.showMessageDialog(contentPanel,"Αποτυχία Αποθήκευσης!","Error",JOptionPane.ERROR_MESSAGE);
-					}
-					
-					try {
-						String query8 = "Select name from employees;";
-						ResultSet rs = MySQL.executeQuery(query8, conn);
-						HRDialog.cb.removeAllItems();
-						while(rs.next()){
-							HRDialog.cb.addItem(rs.getString(1));
+						String query10 = "Delete from employees where name='"+onoma+"' ";
+						MySQL.executeUpdate(query10, conn);
+						
+						String text1 = textField.getText();
+						String text2 = textField2.getText();
+						String text3 = (String) cbb.getSelectedItem();
+						String text4 = textField3.getText();
+						String text5 = textField4.getText();
+						
+						String query = "Insert into employees values('"+text1+"','"+text4+"','"+text3+"','"+text5+"','"+text2+"')";
+						boolean saved = MySQL.executeUpdate(query, conn);
+						//i.setVisible(false);
+						
+						if (saved){
+							JOptionPane.showMessageDialog(contentPanel,"Αποθηκεύτικε επιτυχώς!","Info",JOptionPane.INFORMATION_MESSAGE);
+						}else{
+							JOptionPane.showMessageDialog(contentPanel,"Αποτυχία Αποθήκευσης!","Error",JOptionPane.ERROR_MESSAGE);
 						}
-						 
-					} catch (SQLException e1) {
-						// TODO Auto-generated catch block
-						e1.printStackTrace();
-					}	
+						
+						try {
+							String query8 = "Select name from employees;";
+							ResultSet rs = MySQL.executeQuery(query8, conn);
+							HRDialog.cb.removeAllItems();
+							while(rs.next()){
+								HRDialog.cb.addItem(rs.getString(1));
+							}
+							 
+						} catch (SQLException e1) {
+							// TODO Auto-generated catch block
+							e1.printStackTrace();
+						}
+					}
 					
 				}
 			});
+			
 			btnSave.setIcon(new ImageIcon(MyDialog4.class.getResource("/Pictures/floppy-disk-icon.png")));
 			buttonPane.add(btnSave);
 			{
